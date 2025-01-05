@@ -11,7 +11,7 @@ const Index = () => {
   useEffect(() => {
     AOS.init({
       offset: 200,
-      duration: 500,
+      duration: 400,
       easing: "ease-in-out",
       mirror: true,
     });
