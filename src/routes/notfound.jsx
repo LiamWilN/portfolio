@@ -4,7 +4,6 @@ import { useRouteError } from "react-router-dom";
 
 const NotFound = () => {
   const error = useRouteError();
-  console.log(error);
   return (
     <div className="w-screen h-screen flex items-center justify-center flex-col gap-4 bg-neutral-900">
       <h1 className="text-neutral-100 font-extrabold text-7xl">
